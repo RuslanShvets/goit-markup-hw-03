@@ -5,127 +5,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widht=device-width, initial-scale=1.0">
     <title lang="en">Web Studio</title>
+    <link rel="preconnect" href="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <!-- body -->
 <body>
-    <header>
-     <nav>
-     <a href="/" lang="en">
-        <span>Web</span><span>Studio</span>
+    <header class="headert">
+     <nav class="nav">
+     <a class="logo" href="/" lang="en">
+        <span class="logo-name-1part">Web</span><span class="logo-name-2part">Studio</span>
      </a>
-     <ul>
-     <li>
-        <a href="#">Студия</a>
+     <ul class="nav-list">
+     <li class="nav-list-items">
+        <a class="nav-list-link" href="#">Студия</a>
      </li>
      <li>
-        <a href="#">Портфолио</a>
+        <a class="nav-list-link" href="#">Портфолио</a>
      </li>
      <li>
-        <a href="#">Контакты</a>
+        <a class="nav-list-link" href="#">Контакты</a>
      </li>
      </ul>
      </nav>
-     <address>
-     <ul>  
-     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-     <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+     <address class="address">
+     <ul class="address-list">  
+     <li><a class="address-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+     <li><a class="address-tel-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
      </ul>
      </address>
     </header>
 <!-- Main -->
     <main>
 <!-- Hero -->
-<section>
-    <div>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+<section class="hero">
+    <div class="hero-top">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="modal-btn" type="button">Заказать услугу</button>
     </div>
 </section>
 <!--Details-->
-<section>
-    <div>
+<section class="details">
+    <div class="main-details">
         <h2 hidden>Особенности</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <ul class="main-details-list">
+          <li class="details-list">
+            <h3 class="details-list-points" >Внимание к деталям</h3>
+            <p class="details-overview">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
 
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          <li class="details-list">
+            <h3 class="details-list-points">Пунктуальность</h3>
+            <p class="details-overview">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
           </li>
 
-          <li>
-            <h3>Планирование</h3>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+          <li class="details-list">
+            <h3 class="details-list-points">Планирование</h3>
+            <p class="details-overview">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
           </li>
 
-          <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <li class="details-list">
+            <h3 class="details-list-points">Современные технологии</h3>
+            <p class="details-overview">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
     </div>
 </section>
 <!--What do we do-->
-<section>
-    <div>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-            <li>
-                <img src="./images/Main/box_1.jpg" alt="Работает на ноутбуке" width="370" height="294">
+<section class="about-us">
+    <div class="about-us-box">
+        <h2 class="submain-titles">Чем мы занимаемся</h2>
+        <ul class="about-us-list">
+            <li class="about-us-links">
+                <img class="images" src="./images/Main/box_1.jpg" alt="Работает на ноутбуке" width="370" height="294">
             </li>
-            <li>
-                <img src="./images/Main/box_2.jpg" alt="Работает на телефоне и ноутбуке" width="370" height="294">
+            <li class="about-us-links">
+                <img class="images" src="./images/Main/box_2.jpg" alt="Работает на телефоне и ноутбуке" width="370" height="294">
                 
             </li>
-            <li> 
-                <img src="./images/Main/box_3.jpg" alt="Работает на планшете" width="370" height="294">
+            <li class="about-us-links"> 
+                <img class="images" src="./images/Main/box_3.jpg" alt="Работает на планшете" width="370" height="294">
             </li>
         </ul>
     </div>
 </section>
 <!-- Our Team -->
-<section>
-    <div>
-        <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="./images/Main/Igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                <h3>Игорь Демьяненко</h3>
-                <p lang="en">Product Designer</p>
+<section class="our-team">
+    <div class="team-main">
+        <h2 class="submain-titles">Наша команда</h2>
+        <ul class="team-main-list">
+            <li class="team-main-link">
+                <img class="team-img" src="./images/Main/Igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                <h3 class="our-team-names">Игорь Демьяненко</h3>
+                <p class="our-team-jobs" lang="en">Product Designer</p>
             </li>
-            <li>
-                <img src="./images/Main/Olga.jpg" alt="Ольга Репина" width="270" height="260">
-                <h3>Ольга Репина</h3>
-                <p lang="en">Frontend Developer</p>
+            <li class="team-main-link">
+                <img class="team-img" src="./images/Main/Olga.jpg" alt="Ольга Репина" width="270" height="260">
+                <h3 class="our-team-names">Ольга Репина</h3>
+                <p class="our-team-jobs" lang="en">Frontend Developer</p>
             </li>
-            <li>
-                <img src="./images/Main/Marketing.jpg" alt="Николай Тарасов" width="270" height="260">
-                <h3>Николай Тарасов</h3>
-                <p lang="en">Frontend Developer</p>
+            <li class="team-main-link">
+                <img class="team-img" src="./images/Main/Marketing.jpg" alt="Николай Тарасов" width="270" height="260">
+                <h3 class="our-team-names">Николай Тарасов</h3>
+                <p class="our-team-jobs" lang="en">Frontend Developer</p>
             </li>
-            <li>
-                <img src="./images/Main/UI-designer.jpg" alt="Михаил Ермаков" width="270" height="260">
-                <h3>Михаил Ермаков</h3>
-                <p lang="en">UI Designer</p>
+            <li class="team-main-link">
+                <img class="team-img" src="./images/Main/UI-designer.jpg" alt="Михаил Ермаков" width="270" height="260">
+                <h3 class="our-team-names">Михаил Ермаков</h3>
+                <p class="our-team-jobs" lang="en">UI Designer</p>
             </li>
         </ul>    
     </div>
 </section>
     </main>
 <!-- Footer Contact Form -->
-    <footer>
-    
-        <div>
-            <a href="/" lang="en">
-            <span>Web</span><span>Studio</span></a>
-               <address>
-            <ul>
-               <li><a href="https://goo.gl/maps/edRkHMqUJccwhUVm9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-               <li><a href="mailto:info@example.com">info@example.com</a></li>
-               <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <footer class="footer">
+            <div class="footer-left-side">
+            <a class="logo" href="/" lang="en">
+            <span class="logo-name-1part">Web</span><span class="logo-bottom-2part">Studio</span></a>
+               <address class="address">
+            <ul class="address-list">
+               <li class="address-list-links">
+                   <a class="address-map-link" href="https://goo.gl/maps/edRkHMqUJccwhUVm9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+               <li class="address-list-links">
+                   <a class="address-link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+               <li class="address-list-links">
+                   <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
                </address>
         </div>

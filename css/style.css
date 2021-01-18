@@ -1,0 +1,150 @@
+:root {
+    --text-front: "Roboto", sans-serif;
+    --logo:
+;   --accent-color: #2196F3; 
+}
+
+body {
+  font-family: "Roboto", sans-serif;;
+  color: #757575;
+}
+/* nav */
+.logo-name-1part {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.logo-name-2part {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+ color: var(--accent-color)
+}
+
+.address-mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.address-mail-link:hover,
+.address-mail-link:focus {
+  color: #2196F3
+}
+
+.address-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+ 
+}
+
+.address-tel-link:hover,
+.address-tel-link:focus {
+  color: var(--accent-color)
+}
+/* hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #FFFFFF; */   
+}
+
+.modal-btn {
+  background: #2196F3;
+  color: #ffffff;
+}
+/* details section */
+.details-list-points {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;  
+}
+
+.detail-overview {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.submain-titles {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;    
+}
+/*our team*/
+.our-team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our-team-jobs {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;  
+}
+/*footer*/
+.logo-bottom-2part {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  /*color: #ffffff;*/
+}
+/*footer-address*/
+
+.address-map-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  /*color: #FFFFFF;*/  
+}
+
+.address-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;  
+  /*color: rgba(255, 255, 255, 0.6); */ 
+}
