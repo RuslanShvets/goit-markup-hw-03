@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;;
-  color: #757575;
+  font-family: "Roboto", sans-serif;
+  background: #E5E5E5
 }
 /* nav */
 .logo-name-1part {
@@ -16,7 +16,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--accent-color);
 }
 
 .logo-name-2part {
@@ -35,6 +35,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #212121;
+  
 }
 
 .nav-list-link:hover,
@@ -51,7 +52,7 @@ body {
 
 .address-mail-link:hover,
 .address-mail-link:focus {
-  color: #2196F3
+  color: var(--accent-color)
 }
 
 .address-tel-link {
@@ -74,7 +75,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #FFFFFF; */   
+  color: #FFFFFF;   
 }
 
 .modal-btn {
@@ -94,7 +95,7 @@ body {
 .detail-overview {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
@@ -125,26 +126,62 @@ body {
 }
 /*footer*/
 .logo-bottom-2part {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 /*footer-address*/
 
 .address-map-link {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
-  /*color: #FFFFFF;*/  
+  color: #FFFFFF;  
 }
 
 .address-link {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;  
-  /*color: rgba(255, 255, 255, 0.6); */ 
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*----Portfolio----*/
+
+.sub-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #F5F4FA;
+}
+
+.sub-nav-link:hover,
+.sub-nav-link:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.progect-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;  
 }
