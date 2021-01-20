@@ -6,7 +6,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #E5E5E5
+  background: #E5E5E5;
+}
+
+ul {
+  list-style: none;
 }
 /* nav */
 .logo-name-1part {
