@@ -6,17 +6,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #E5E5E5;
-}
+ }
 
 ul {
   list-style: none;
 }
 /* nav */
 .logo-name-1part {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -24,28 +22,36 @@ ul {
 }
 
 .logo-name-2part {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
 }
-
+.current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  }
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;
-  
-}
+  color: #212121;}
+
+
+
 
 .nav-list-link:hover,
 .nav-list-link:focus {
  color: var(--accent-color)
 }
+
+
 
 .address-mail-link {
   font-weight: 500;
@@ -71,6 +77,12 @@ ul {
 .address-tel-link:focus {
   color: var(--accent-color)
 }
+a.address-link,
+a.address-mail-link,
+a.address-tel-link,
+a.address-map-link {
+  font-style: normal;
+}
 /* hero */
 .hero-title {
   font-weight: 900;
@@ -79,16 +91,16 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;   
+  /*color: #FFFFFF;*/   
 }
 
 .modal-btn {
   background: #2196F3;
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
 /* details section */
 .details-list-points {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
@@ -97,14 +109,14 @@ ul {
 }
 
 .detail-overview {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
 .submain-titles {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
@@ -122,6 +134,7 @@ ul {
 }
 
 .our-team-jobs {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
@@ -130,30 +143,30 @@ ul {
 }
 /*footer*/
 .logo-bottom-2part {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
 /*footer-address*/
 
 .address-map-link {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #FFFFFF;  
+  /*color: #FFFFFF;*/  
 }
 
 .address-link {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;  
-  color: rgba(255, 255, 255, 0.6);
+  /*color: rgba(255, 255, 255, 0.6);*/
 }
 
 /*----Portfolio----*/
@@ -170,12 +183,12 @@ ul {
 
 .sub-nav-link:hover,
 .sub-nav-link:focus {
-  color: #ffffff;
+  /*color: #ffffff;*/
   background-color: var(--accent-color);
 }
 
 .progect-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -183,7 +196,7 @@ ul {
 }
 
 .project-subtitle {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
