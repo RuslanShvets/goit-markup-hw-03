@@ -128,7 +128,8 @@ background: #2F303A
   color: #757575;
 }
 .details,
-.about-us {
+.about-us,
+.sub-nav {
   background: #E5E5E5
 }
 
