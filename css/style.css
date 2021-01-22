@@ -23,7 +23,7 @@ ul {
 
 .logo-name-2part {
   font-family: Raleway, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -85,6 +85,10 @@ a.address-tel-link,
 a.address-map-link {
   font-style: normal;
 }
+.headert {
+background: #FFFFFF
+}
+
 /* hero */
 .hero-title {
   font-weight: 900;
@@ -93,13 +97,19 @@ a.address-map-link {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #FFFFFF;*/   
+  color: #FFFFFF; 
 }
 
 .modal-btn {
   background: #2196F3;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
+/*hero*/
+.hero,
+.footer {
+background: #2F303A
+}
+
 /* details section */
 .details-list-points {
   font-weight: 700;
@@ -110,11 +120,16 @@ a.address-map-link {
   color: #212121;  
 }
 
-.detail-overview {
+.details-overview {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  color: #757575;
+}
+.details,
+.about-us {
+  background: #E5E5E5
 }
 
 .submain-titles {
@@ -143,15 +158,18 @@ a.address-map-link {
   letter-spacing: 0.03em;
   color: #757575;  
 }
+
+.our-team {
+  background: #F5F4FA
+}
 /*footer*/
 .logo-bottom-2part {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 /*footer-address*/
 
@@ -160,7 +178,7 @@ a.address-map-link {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /*color: #FFFFFF;*/  
+  color: #FFFFFF; 
 }
 
 .address-link {
@@ -168,7 +186,7 @@ a.address-map-link {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;  
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*----Portfolio----*/
@@ -185,7 +203,7 @@ a.address-map-link {
 
 .sub-nav-link:hover,
 .sub-nav-link:focus {
-  /*color: #ffffff;*/
+  color: #ffffff;
   background-color: var(--accent-color);
 }
 
