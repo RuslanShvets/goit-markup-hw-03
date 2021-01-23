@@ -1,8 +1,15 @@
 :root {
     --text-front: "Roboto", sans-serif;
-    --logo:
-;   --accent-color: #2196F3; 
-}
+    --sub-title-color: #757575;
+    --accent-color: #2196F3; 
+    --title-color: #212121;
+    --white-color-background: #FFFFFF;
+    --backgrount-section: #E5E5E5;
+    --team-subnav-link: #F5F4FA;
+    --address-link:  rgba(255, 255, 255, 0.6);
+    --hero: #2F303A;
+    --logo-2part: #000000;
+  }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -11,8 +18,10 @@ body {
 ul {
   list-style: none;
 }
-/* nav */
-.logo-name-1part {
+/* nav-logo */
+.logo-name-1part,
+.logo-name-2part,
+.logo-bottom-2part {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -22,12 +31,7 @@ ul {
 }
 
 .logo-name-2part {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-2part);
 }
 .current {
   font-weight: 500;
@@ -41,9 +45,7 @@ ul {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;}
-
-
+  color: var(--title-color);}
 
 
 .nav-list-link:hover,
@@ -52,13 +54,12 @@ ul {
 }
 
 
-
 .address-mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #757575; 
+  color: var(--sub-title-color); 
 }
 
 .address-mail-link:hover,
@@ -71,7 +72,7 @@ ul {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--sub-title-color);
  
 }
 
@@ -86,7 +87,7 @@ a.address-map-link {
   font-style: normal;
 }
 .headert {
-background: #FFFFFF
+background: var(--white-color-background)
 }
 
 /* hero */
@@ -97,17 +98,17 @@ background: #FFFFFF
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF; 
+  color: var(--white-color-background); 
 }
 
 .modal-btn {
-  background: #2196F3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--white-color-background);
 }
 /*hero*/
 .hero,
 .footer {
-background: #2F303A
+background: var(--hero)
 }
 
 /* details section */
@@ -117,7 +118,7 @@ background: #2F303A
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;  
+  color: var(--title-color);  
 }
 
 .details-overview {
@@ -125,12 +126,12 @@ background: #2F303A
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sub-title-color);
 }
 .details,
 .about-us,
 .sub-nav {
-  background: #E5E5E5
+  background: var(--backgrount-section)
 }
 
 .submain-titles {
@@ -139,7 +140,7 @@ background: #2F303A
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;    
+  color: var(--title-color);    
 }
 /*our team*/
 .our-team-names {
@@ -148,7 +149,7 @@ background: #2F303A
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .our-team-jobs {
@@ -157,20 +158,15 @@ background: #2F303A
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;  
+  color: var(--sub-title-color);  
 }
 
 .our-team {
-  background: #F5F4FA
+  background: var(--team-subnav-link)
 }
 /*footer*/
 .logo-bottom-2part {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color-background);
 }
 /*footer-address*/
 
@@ -179,7 +175,7 @@ background: #2F303A
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #FFFFFF; 
+  color: var(--white-color-background); 
 }
 
 .address-link {
@@ -187,7 +183,7 @@ background: #2F303A
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;  
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-link);
 }
 
 /*----Portfolio----*/
@@ -198,13 +194,13 @@ background: #2F303A
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #F5F4FA;
+  color: var(--title-color);
+  background-color: var(--team-subnav-link);
 }
 
 .sub-nav-link:hover,
 .sub-nav-link:focus {
-  color: #ffffff;
+  color: var(--white-color-background);
   background-color: var(--accent-color);
 }
 
@@ -213,7 +209,7 @@ background: #2F303A
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .project-subtitle {
@@ -221,5 +217,5 @@ background: #2F303A
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;  
+  color: var(--sub-title-color);  
 }
